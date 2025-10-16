@@ -20,7 +20,7 @@ const Nav2 = () => {
             <div  className="nav-2">
                 <div ref={scrollRate} className="categories">
                 <div className="category">
-                    <h6 className="category-text"><Link style={{color:"black", textDecoration:"none"}} to="/fastkart">Home</Link></h6>
+                    <h6 className="category-text"><Link style={{color:"black", textDecoration:"none"}} to="/fastkartEcom">Home</Link></h6>
                 </div>
                 <div className="category">
                     <h6 className="category-text"><Link style={{color:"black", textDecoration:"none"}} to="/fashion">Fasion</Link></h6>
