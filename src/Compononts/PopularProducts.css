@@ -89,7 +89,7 @@
         font-size: 12px;
     }
 }
-@media (max-width:400px) {
+@media (max-width:425px) {
     .nav-btns{
         display: none;
     }
