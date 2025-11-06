@@ -1,4 +1,4 @@
-import "./helpcenter.css"
+import "./Helpcenter.css"
 const HelpCenter = () =>{
     return(
         <>
