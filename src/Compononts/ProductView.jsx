@@ -8,8 +8,7 @@ const ProductView = () => {
     const [product,setProduct] = useState()
     const location = useLocation()
     const getProduct = async()=>{
-        const response = await axios.get(`${productBase}get-product/${location.pathname.split("/")[2]}`)
-        console.log(response);
+        const response = await axios.get(`${productBase}get-product/${location.pathname.split("/")[3]}`)
         response && response.data.success == true && response.data.product && setProduct(response.data.product)
     }
     useEffect(()=>{
@@ -26,7 +25,7 @@ const ProductView = () => {
                     </div>
                     <div className="product-content">
                         <div className="product-content-img">
-                            {product && product[0].image && <img src={`http://localhost:3000/uploads/${product[0].image}`} alt="" />}
+                            {product && product[0].image && <img src={`https://fastkart-backend.onrender.com/uploads/${product[0].image}`} alt="" />}
                         </div>
                         <div className="product-content-content">
                             <div className="product-name">
