@@ -21,20 +21,13 @@ const Products = (probs) => {
                     <div onClick={(e)=>{handleScroll("right")}} className="navright">&gt;</div>
                 </div>
                 <div ref={scrollRate} className="popular-products">
-                    <Card1/>
-                    <Card1/>
-                    <Card1/>
-                    <Card1/>
-                    <Card1/>
-                    <Card1/>
-                    <Card1/>
-                    <Card1/>
-                    <Card1/>
-                    <Card1/>
-                    <Card1/>
-                    <Card1/>
-                    <Card1/>
-                    <Card1/>
+                    {
+                        probs.title == "Popular Products" ? probs.data.map((product)=>{return <Card1 data={product}/>}):
+                        probs.data && probs.data.map((product)=>{return product.category == probs.title && <Card1 data={product}/>})
+                    }
+                    {
+                        probs.title == "More Categories" && probs.data.map((product)=>{return product.category == "jwels" || product.category == "Wellness" && <Card1 data={product}/>})
+                    }
                 </div>
             </div>
         </>

@@ -21,6 +21,16 @@
     padding: 0 15px;              
     padding-bottom: 30px;
 }
+.auth-form .login-register .error-message{
+    color: red;
+    width: 100%;
+    text-align: center;
+    border: 1px solid rgba(255, 0, 0, 0.397);
+    height: 40px;
+    padding-top: 12px;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.2);
+}
 .auth-form .login-register .title{
     font-size: 12px;
     margin-top: 20px;

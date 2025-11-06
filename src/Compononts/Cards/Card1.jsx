@@ -3,11 +3,11 @@ import sample from "../../assets/img (8).jpg"
 import wishlist from "../../assets/icons/icons8-heart-26 (1).png"
 import cartImg from "../../assets/icons/icons8-cart-24.png"
 import { useLocation, useNavigate } from "react-router-dom"
-const Card1 = () =>{
+const Card1 = (probs) =>{
     const path = useLocation();
     const navigate = useNavigate()
     const openProduvtView = () =>{
-        navigate(`${path.pathname}/product-id`)
+        navigate(`${path.pathname}/product/${probs.data._id}`)
     }
     return(
         <>
@@ -16,14 +16,14 @@ const Card1 = () =>{
                     <div className="wishlist">
                         <img src={wishlist} alt="" />
                     </div>
-                    <img src={sample} alt="" />
+                    <img src={`http://localhost:3000/uploads/${probs.data.image}`} alt="" />
                 </div>
                 <div className="card-middle">
-                    <div className="productname">Mens casual shirt</div>
-                    <div className="productdesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, eos.</div>
+                    {probs.data.productName && <div className="productname">{probs.data.productName}</div>}
+                    <div className="productdesc">{probs.data.productDescription}</div>
                     <div className="price">
-                        <div className="current-price">$ 29.99</div>
-                        <div className="original-price">$ 39.99</div>
+                        <div className="current-price">{probs.data.productPrice}</div>
+                        <div className="original-price">{probs.data.productPrice+(probs.data.productPrice%10)}</div>
                     </div>
                 </div>
 

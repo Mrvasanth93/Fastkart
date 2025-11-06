@@ -19,10 +19,9 @@ import Jwells from './Pages/Jwelles/Jwelles'
 import Wellness from './Pages/Wellness/Wellness'
 import ProductView from './Compononts/ProductView'
 import Nav3 from './Compononts/nav/Nav3'
+import CreateProduct from './Pages/Product/CreateProduct'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <HelpCenter/>
@@ -31,7 +30,7 @@ function App() {
       <Routes>
         <Route path="/login" element={<Login/>}/>
         <Route path="/signup" element={<Register/>}/>
-        <Route path='/fastkartEcom' element={<Home/>}/>
+        <Route path='/' element={<Home/>}/>
         <Route path='/fashion' element={<Fashion/>}/>
         <Route path='/electronics' element={<Electronics/>}/>
         <Route path='/bags' element={<Bags/>}/>
@@ -39,7 +38,8 @@ function App() {
         <Route path='/wellness' element={<Wellness/>}/>
         <Route path='/jwells' element={<Jwells/>}/>
         <Route path='/footwear' element={<FootWear/>}/>
-        <Route path=":path/:productid" element={<ProductView/>}/>
+        <Route path='/admin/products/create' element={<CreateProduct/>}/>
+        <Route path=":path/product/:productid" element={<ProductView/>}/>
       </Routes>
       <Footer/>
       <Nav3/>

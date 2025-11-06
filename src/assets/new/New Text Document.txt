@@ -1,0 +1,225 @@
+[
+  {
+    "productName": "Men Cotton T-Shirt",
+    "productDescription": "Soft and breathable cotton T-shirt for casual wear.",
+    "productPrice": 499,
+    "category": "Fashion",
+    "stock": 150,
+    "colour": "Blue",
+    "size": "L"
+  },
+  {
+    "productName": "Wireless Bluetooth Earbuds",
+    "productDescription": "Noise-cancelling earbuds with 20 hours battery life.",
+    "productPrice": 1599,
+    "category": "Electronics",
+    "stock": 80,
+    "colour": "Black",
+    "ram": "N/A",
+    "storage": "N/A",
+    "weight": "120g"
+  },
+  {
+    "productName": "Women Handbag",
+    "productDescription": "Stylish leather handbag with spacious compartments.",
+    "productPrice": 1899,
+    "category": "Bags",
+    "stock": 50,
+    "colour": "Brown",
+    "weight": "650g"
+  },
+  {
+    "productName": "Herbal Face Cream",
+    "productDescription": "Natural ingredients for glowing and healthy skin.",
+    "productPrice": 299,
+    "category": "Beauty",
+    "stock": 120,
+    "colour": "White"
+  },
+  {
+    "productName": "Smartphone A15",
+    "productDescription": "6GB RAM, 128GB storage, 5000mAh battery.",
+    "productPrice": 15999,
+    "category": "Electronics",
+    "stock": 40,
+    "colour": "Silver",
+    "ram": "6GB",
+    "storage": "128GB",
+    "weight": "180g"
+  },
+  {
+    "productName": "Running Shoes",
+    "productDescription": "Lightweight and comfortable running shoes.",
+    "productPrice": 1799,
+    "category": "Footwear",
+    "stock": 90,
+    "colour": "Red",
+    "size": "9"
+  },
+  {
+    "productName": "Gold Plated Necklace",
+    "productDescription": "Elegant jewellery piece with fine craftsmanship.",
+    "productPrice": 2499,
+    "category": "Jwellery",
+    "stock": 25,
+    "weight": "80g"
+  },
+  {
+    "productName": "Yoga Mat",
+    "productDescription": "Anti-slip yoga mat for daily workouts.",
+    "productPrice": 899,
+    "category": "Wellness",
+    "stock": 100,
+    "colour": "Purple",
+    "weight": "600g"
+  },
+  {
+    "productName": "Laptop Backpack",
+    "productDescription": "Water-resistant backpack with laptop compartment.",
+    "productPrice": 1299,
+    "category": "Bags",
+    "stock": 60,
+    "colour": "Grey",
+    "weight": "700g"
+  },
+  {
+    "productName": "Bluetooth Speaker",
+    "productDescription": "Portable wireless speaker with deep bass.",
+    "productPrice": 999,
+    "category": "Electronics",
+    "stock": 100,
+    "colour": "Black",
+    "weight": "300g"
+  },
+  {
+    "productName": "Cotton Saree",
+    "productDescription": "Beautiful handloom cotton saree.",
+    "productPrice": 1399,
+    "category": "Fashion",
+    "stock": 45,
+    "colour": "Pink",
+    "size": "Free"
+  },
+  {
+    "productName": "Men Formal Shoes",
+    "productDescription": "High-quality leather formal shoes.",
+    "productPrice": 2499,
+    "category": "Footwear",
+    "stock": 35,
+    "colour": "Black",
+    "size": "8"
+  },
+  {
+    "productName": "Fitness Smartwatch",
+    "productDescription": "Track heart rate, steps, and calories.",
+    "productPrice": 2999,
+    "category": "Electronics",
+    "stock": 60,
+    "colour": "Navy Blue",
+    "weight": "90g"
+  },
+  {
+    "productName": "Aloe Vera Gel",
+    "productDescription": "Soothing aloe gel for face and body.",
+    "productPrice": 249,
+    "category": "Beauty",
+    "stock": 110,
+    "colour": "Green"
+  },
+  {
+    "productName": "Wireless Mouse",
+    "productDescription": "Ergonomic mouse with long battery life.",
+    "productPrice": 499,
+    "category": "Electronics",
+    "stock": 150,
+    "colour": "Grey",
+    "weight": "80g"
+  },
+  {
+    "productName": "Women Heels",
+    "productDescription": "Trendy high heels for parties.",
+    "productPrice": 1599,
+    "category": "Footwear",
+    "stock": 30,
+    "colour": "Gold",
+    "size": "7"
+  },
+  {
+    "productName": "Silver Bracelet",
+    "productDescription": "Simple and elegant silver bracelet.",
+    "productPrice": 799,
+    "category": "Jwellery",
+    "stock": 40,
+    "weight": "60g"
+  },
+  {
+    "productName": "Men Casual Shirt",
+    "productDescription": "Checkered casual wear cotton shirt.",
+    "productPrice": 999,
+    "category": "Fashion",
+    "stock": 75,
+    "colour": "Green",
+    "size": "M"
+  },
+  {
+    "productName": "Hair Serum",
+    "productDescription": "Smoothens frizzy hair and adds shine.",
+    "productPrice": 349,
+    "category": "Beauty",
+    "stock": 90,
+    "colour": "Transparent"
+  },
+  {
+    "productName": "Gaming Laptop G5",
+    "productDescription": "16GB RAM, 512GB SSD, RTX 4060 GPU.",
+    "productPrice": 86999,
+    "category": "Electronics",
+    "stock": 15,
+    "colour": "Dark Grey",
+    "ram": "16GB",
+    "storage": "512GB",
+    "weight": "2.1kg"
+  },
+  {
+    "productName": "Leather Wallet",
+    "productDescription": "Premium men’s wallet with card slots.",
+    "productPrice": 699,
+    "category": "Fashion",
+    "stock": 120,
+    "colour": "Brown"
+  },
+  {
+    "productName": "Protein Powder",
+    "productDescription": "Whey protein for muscle gain.",
+    "productPrice": 2499,
+    "category": "Wellness",
+    "stock": 50,
+    "weight": "1kg"
+  },
+  {
+    "productName": "Makeup Kit",
+    "productDescription": "All-in-one makeup set for women.",
+    "productPrice": 1999,
+    "category": "Beauty",
+    "stock": 35,
+    "colour": "Multi"
+  },
+  {
+    "productName": "Smart TV 43 inch",
+    "productDescription": "Full HD LED Smart TV with OTT apps.",
+    "productPrice": 25999,
+    "category": "Electronics",
+    "stock": 25,
+    "colour": "Black",
+    "weight": "7kg"
+  },
+  {
+    "productName": "Sneakers",
+    "productDescription": "Trendy sneakers for men and women.",
+    "productPrice": 1499,
+    "category": "Footwear",
+    "stock": 60,
+    "colour": "White",
+    "size": "9"
+  }
+]
